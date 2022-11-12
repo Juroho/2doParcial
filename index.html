@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial Rubens</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+</head>
+<body>
+    <!--NAVBAR-->
+    <section class="Navbar ">
+        <div class="logo">
+            <img src="img/HURBENS.PNG" alt="logo">
+        </div>
+        <div>
+            <ul class="navlinks">
+                <li><a href="#nosotros">NOSOTROS</a></li>
+                <li><a href="#features">SERVICIOS</a></li>
+                <li><a href="#noticias">NOTICIAS</a></li>
+                <li><a href="#prod">PRODUCTOS</a></li>
+                <li><a href="#contact">CONTACTO</a></li>
+            </ul>
+        </div>
+    </section>
+    <!--HERO-->
+    <section class=" row hero" id="nosotros">
+            <div class="five columns">
+                <h2>Veterinaria HURBENS SRL </h2>
+                <p>Nuestra mision es el adecuado cuidado de tus mascotas y brindarles el soporte que sea nesesario para conseguir este objetivo.</p>
+                <a class="button button-primary" href="#noticias">NOTICIAS</a>
+                <a class="button button-primary" href="https://postgradoveterinaria.com/cuidados-perro-recomendaciones-basicas/">Leer mas </a>
+            </div>
+            <div class=" four columns">
+                <img src="img/perro1.jpg" width="700px" height="500px" class="fotoperro1">
+            </div>
+    </section>
+    <!--FEATURES-->
+    <section class="row features" id="features">
+        <div class="four columns cards">
+            <figure class="card_img">
+                <img src="img/dientes.png" class="card_picture">
+            </figure>
+            <h3>ODONTOLOGIA</h3>
+            <p>En la Clínica Veterinaria HURBENS SRL estamos capacitados para atender los problemas orales de tu mascota.</p>
+            <a href="https://www.odontologiaactual.com/blog_odontologia_actual/odontologia-veterinaria/" class="button button-primary btn">Conocer mas</a>
+        </div>
+
+        </div>
+        <div  class="four columns cards">
+            <figure class="card_img">
+                <img src="img/bisturi.png" class="card_picture">
+            </figure>
+            <h3>CIRUJIA</h3>
+            <p>Nuestros profesionales se encuentran capacitados para realizar todo tipo de cirugías especializadas, desde cirugías plásticas hasta neurocirugías.</p>
+            <a href="https://sutuvet.com/cirugias/sutuvet-com-blog-cuales-son-las-cirugias-caninas-mas-comunes-que-se-realizan/" class="button button-primary btn">Conocer mas</a>
+        </div>
+
+        </div>
+            <div  class="four columns cards">
+                <figure class="card_img">
+                    <img src="img/comida.png" class="card_picture">
+                </figure>
+                <h3>NUTRICION CLINICA</h3>
+                <p>Una dieta equilibrada ayuda a la mascota enferma a incorporar los nutrientes que necesita para reponerse.</p>
+                <a href="https://www.euroinnova.bo/blog/en-que-consiste-la-nutricion-veterinaria" class="button button-primary btn">Conocer mas</a>
+            </div>
+        </div>
+    </section>
+<!--NOTICIAS-->
+<section class=" row Noticias" id="noticias">
+    <div class="five columns">
+        <h3>Nueva sucursal</h3>
+        <p>Nos complace anunciar que hemos abierto una nueva sucursal en el centro de la ciudad, esperamos que esto mejore nuestro radio de atencion</p>
+        <a href="#" class="button button-primary">Leer mas</a>
+    </div>
+    <div class="four columns">
+        <img src="img/vet.PNG" alt="Noticia">
+    </div>
+</section>
+<!--SLIDER-->
+<section class="productos" id="prod" >
+    <ul class="slider">
+        <li>
+            <input type="radio" id="sbutton1" name="sradio" checked>
+            <label for="sbutton1"></label>
+           <img src="img/arnes.jpg" alt="">
+        </li>
+        <li>
+            <input type="radio" id="sbutton2" name="sradio">
+            <label for="sbutton2"></label>
+            <img src="img/cama.jpg" alt="">
+        </li>
+        <li>
+            <input type="radio" id="sbutton3" name="sradio">
+            <label for="sbutton3"></label>
+            <img src="img/royal.png" alt="">
+        </li>
+    </ul>
+</section>
+
+<!--CONTACTOS-->
+<section class="contactos" id="contact">
+    <div class="contbox">
+        <h2>CONTACTENOS</h2>
+        <form>
+            <div class="row">
+                <div class="six columns">
+                    <label for="exampleEmailInput">Email</label>
+                    <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+                </div>
+                <div class="six columns">
+                    <label for="exampleMessage">Nombre</label>
+                    <textarea class="u-full-width" placeholder="Leandro Rubens..." id="exampleMessage"></textarea>
+                </div>
+            </div>
+            <input class="button-primary" type="submit" value="Submit">
+        </form>
+    </div>
+</section>
+</body>
+</html>
